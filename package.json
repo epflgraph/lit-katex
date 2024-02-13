@@ -1,0 +1,25 @@
+{
+  "name": "lit-katex",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite dev",
+    "dev": "vite dev",
+    "build:watch": "vite build --watch",
+    "build": "vite build",
+    "analyze": "npx vite-bundle-visualizer"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.7",
+    "lit": "^3.1.0",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.12",
+    "vite-tsconfig-paths": "^4.3.1"
+  },
+  "dependencies": {
+    "katex": "^0.16.9"
+  },
+  "main": "index.js",
+  "author": "Thijs van Beek <thijs.vanbeek@epfl.ch>",
+  "license": "ISC",
+  "description": ""
+}
