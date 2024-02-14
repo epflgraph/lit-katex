@@ -6,9 +6,7 @@ import { unsafeHTML } from "lit/directives/unsafe-html.js";
 @customElement("lit-katex")
 export class LitKatex extends LitElement {
   render() {
-    const data = String.raw`${this.innerHTML}`;
-
-    const formula = katex.renderToString(data, {
+    const formula = katex.renderToString(this.innerHTML, {
       throwOnError: false,
       output: "mathml",
     });
